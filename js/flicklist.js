@@ -2,7 +2,7 @@
 
 var api = {
 	root: "https://api.themoviedb.org/3",
-	token: "" // TODO put your api key here
+	token: "c3477722fd6a129c7ded14c83348aa85" // TODO put your api key here
 }
 
 /**
@@ -11,7 +11,7 @@ var api = {
  */
 function testTheAPI() {
 	$.ajax({
-		url: api.root + "/discover/movie",
+		url: api.root + "/movie/505",
 		data: {
 			api_key: api.token,
 		},
